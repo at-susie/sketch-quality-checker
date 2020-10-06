@@ -1,0 +1,1 @@
+# sketch-assistant-naming
