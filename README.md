@@ -1,16 +1,21 @@
-# sketch-assistant-template
+# sketch-quality-checker
 
-> 💁‍♀️ This repository contains a starter project for developing a new Assistant.
+> 📋  A collection of some quality-checking assitants for Sketch.
 
-👉
-[Click here to generate a new project using this repository as a template](https://github.com/sketch-hq/sketch-assistant-template/generate)
 
 ## Getting started
 
-For in-depth guides head over to the [Sketch Developer](https://developer.sketch.com/assistants/)
-site.
+```
+$ npm install
+```
 
-- [Getting started](https://developer.sketch.com/assistants/getting-started)
-- [Write a rule](https://developer.sketch.com/assistants/write-a-rule)
-- [Publishing](https://developer.sketch.com/assistants/publish)
-- And more!
+## Core assistant items used
+- [Default shape name notification](https://github.com/sketch-hq/sketch-assistants/tree/main/assistants/core/src/rules/name-pattern-shapes)
+- [Default group name notification](https://github.com/sketch-hq/sketch-assistants/tree/main/assistants/core/src/rules/name-pattern-groups)
+- [Disabled border notification](https://github.com/sketch-hq/sketch-assistants/tree/main/assistants/core/src/rules/borders-no-disabled)
+- [Disabled fill notification](https://github.com/sketch-hq/sketch-assistants/tree/main/assistants/core/src/rules/fills-no-disabled)
+- [Broken layer style notification](https://github.com/sketch-hq/sketch-assistants/tree/main/assistants/core/src/rules/layer-styles-no-dirty)
+- [Broken text style notification](https://github.com/sketch-hq/sketch-assistants/tree/main/assistants/core/src/rules/text-styles-no-dirty)
+- Thanks to [oodesign](https://github.com/oodesign), this also uses an assistant item for checking [duplicated artboards](https://github.com/oodesign/duplicates-assistant).
+- And more.
+

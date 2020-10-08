@@ -41,10 +41,12 @@ const duplicateArtboards = {
     title: 'Hey, you have duplicated artboards',
     description: '',
 };
-var no_oval_name = ['^Oval$', '^Oval Copy$', '^Oval Copy 2$', '^Oval Copy 3$', '^Oval Copy 4$', '^Oval Copy 5$', '^Oval Copy 6$'];
-var no_rectangle_name = ['^Rectangle$', '^Rectangle Copy$', '^Rectangle Copy 2$', '^Rectangle Copy 3$', '^Rectangle Copy 4$', '^Rectangle Copy 5$', '^Rectangle Copy 6$'];
-var no_path_name = ['^Path$', '^Path Copy$', '^Path Copy 2$', '^Path Copy 3$', '^Path Copy 4$', '^Path Copy 5$', '^Path Copy 6$'];
-var no_combinedshape_name = ['^Combined Shape$', '^Combined Shape Copy$', '^Combined Shape Copy 2$', '^Combined Shape Copy 3$', '^Combined Shape Copy 4$', '^Combined Shape Copy 5$', '^Combined Shape Copy 6$'];
+var no_shape_name = [
+    '^Oval$', '^Oval Copy$', '^Oval Copy 2$', '^Oval Copy 3$', '^Oval Copy 4$', '^Oval Copy 5$', '^Oval Copy 6$',
+    '^Rectangle$', '^Rectangle Copy$', '^Rectangle Copy 2$', '^Rectangle Copy 3$', '^Rectangle Copy 4$', '^Rectangle Copy 5$', '^Rectangle Copy 6$',
+    '^Path$', '^Path Copy$', '^Path Copy 2$', '^Path Copy 3$', '^Path Copy 4$', '^Path Copy 5$', '^Path Copy 6$',
+    '^Combined Shape$', '^Combined Shape Copy$', '^Combined Shape Copy 2$', '^Combined Shape Copy 3$', '^Combined Shape Copy 4$', '^Combined Shape Copy 5$', '^Combined Shape Copy 6$'
+];
 const assistant = [
     sketch_core_assistant_1.default,
     () => __awaiter(void 0, void 0, void 0, function* () {
@@ -56,7 +58,7 @@ const assistant = [
                     '@sketch-hq/sketch-core-assistant/name-pattern-shapes': {
                         active: true,
                         allowed: [],
-                        forbidden: no_oval_name, no_rectangle_name, no_path_name, no_combinedshape_name,
+                        forbidden: no_shape_name,
                         ruleTitle: 'Hey Atsushi, do not leave default shape name!!!',
                     },
                     '@sketch-hq/sketch-core-assistant/name-pattern-groups': {

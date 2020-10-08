@@ -8,7 +8,7 @@
   "sketch-assistant": {
     "title": "Sketch Quality Checker",
     "description": "Template repository for a starter Assistant project",
-    "icon": "icon.png"
+    "icon": "https://zigzag.is/sketchassistant/icon.png"
   },
   "author": {
     "name": "Your Name or Company Name"
