@@ -1,13 +1,7 @@
 # sketch-quality-checker
 
-> 📋  A collection of some quality-checking assitants for Sketch.
+📋   A collection of some quality-checking assitants for Sketch.
 
-
-## Getting started
-
-```
-$ npm install
-```
 
 ## Core assistant items used
 - [Default shape name notification](https://github.com/sketch-hq/sketch-assistants/tree/main/assistants/core/src/rules/name-pattern-shapes)
@@ -19,3 +13,10 @@ $ npm install
 - Thanks to [oodesign](https://github.com/oodesign), this also uses an assistant item for checking [duplicated artboards](https://github.com/oodesign/duplicates-assistant).
 - And more.
 
+## Getting started for customization
+
+After
+```
+$ npm install
+```
+You can tweak the configurations in each assistant items.
