@@ -1,6 +1,6 @@
 # sketch-quality-checker
 
-![Assistant Logo](<img src=https://zigzag.is/sketchassistant/icon.png width="48px" height="48px">) &nbsp; A collection of some quality-checking assitants for Sketch.
+<img src=https://zigzag.is/sketchassistant/icon.png width="48px" height="48px"> &nbsp; A collection of some quality-checking assitants for Sketch.
 
 
 ## Core assistant items used
