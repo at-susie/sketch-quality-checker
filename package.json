@@ -1,6 +1,6 @@
 {
   "name": "sketch-quality-checker",
-  "homepage": "https://github.com/sketch-hq/sketch-assistant-template",
+  "homepage": "https://github.com/at-susie/sketch-quality-checker",
   "version": "1.0.0",
   "main": "dist/index.js",
   "sketch": "dist/sketch.js",
