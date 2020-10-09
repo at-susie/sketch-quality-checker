@@ -38,7 +38,7 @@ const duplicateArtboards = {
         }
     }),
     name: 'duplicates-assistant/duplicate-artboards',
-    title: 'Hey zigzager. Name duplicated artboards nicely.',
+    title: 'Name duplicated artboards nicely.',
     description: '',
 };
 var no_shape_name = [
@@ -55,41 +55,41 @@ const assistant = [
             rules: [duplicateArtboards],
             config: {
                 rules: {
+                    '@sketch-hq/sketch-core-assistant/layer-styles-no-dirty': {
+                        active: true,
+                        ruleTitle: 'You have broken Layer Styles. Re-select the Layer Style or detach it.',
+                    },
+                    '@sketch-hq/sketch-core-assistant/text-styles-no-dirty': {
+                        active: true,
+                        ruleTitle: 'You have broken Text Styles. Re-select the Text Style or detach it.',
+                    },
                     '@sketch-hq/sketch-core-assistant/name-pattern-shapes': {
                         active: true,
                         allowed: [],
                         forbidden: no_shape_name,
-                        ruleTitle: 'Hey zigzager. You have default shape names, like "Rectangle" or "Path". Name them nicely!',
+                        ruleTitle: 'You have default shape names, like "Rectangle" or "Path". Name them nicely!',
                     },
                     '@sketch-hq/sketch-core-assistant/name-pattern-groups': {
                         active: true,
                         allowed: [],
                         forbidden: ['^Group$', '^Group Copy$', '^Group Copy 2$', '^Group Copy 3$', '^Group Copy 4$', '^Group Copy 5$'],
-                        ruleTitle: 'Hey zigzager. You have default group names, like "Group" or "Group Copy". Name them nicely!',
+                        ruleTitle: 'You have default group names, like "Group" or "Group Copy". Name them nicely!',
                     },
                     '@sketch-hq/sketch-core-assistant/borders-no-disabled': {
                         active: true,
-                        ruleTitle: 'Hey zigzager. Removing disabled borders will make the sketch file nicer.',
+                        ruleTitle: 'Removing disabled borders will make the sketch file nicer.',
                     },
                     '@sketch-hq/sketch-core-assistant/fills-no-disabled': {
                         active: true,
-                        ruleTitle: 'Hey zigzager. Removing disabled fills will make the sketch file nicer.',
+                        ruleTitle: 'Removing disabled fills will make the sketch file nicer.',
                     },
                     '@sketch-hq/sketch-core-assistant/shadows-no-disabled': {
                         active: true,
-                        ruleTitle: 'Hey zigzager. Removing disabled shadows will make the sketch file nicer.',
-                    },
-                    '@sketch-hq/sketch-core-assistant/layer-styles-no-dirty': {
-                        active: true,
-                        ruleTitle: 'Hey zigzager. Oh, you have broken Layer Styles. Re-select the Layer Style or detach it.',
-                    },
-                    '@sketch-hq/sketch-core-assistant/text-styles-no-dirty': {
-                        active: true,
-                        ruleTitle: 'Hey zigzager. Oh, you have broken Text Styles. Re-select the Text Style or detach it.',
+                        ruleTitle: 'Removing disabled shadows will make the sketch file nicer.',
                     },
                     '@sketch-hq/sketch-core-assistant/groups-no-redundant': {
                         active: true,
-                        ruleTitle: 'Hey zigzager. You have redundant grouping. Double-check the grouping inside',
+                        ruleTitle: 'You have redundant grouping. Double-check the grouping inside',
                     },
                     'duplicates-assistant/duplicate-artboards': {
                         active: true,

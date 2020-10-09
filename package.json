@@ -7,7 +7,7 @@
   "license": "MIT",
   "sketch-assistant": {
     "title": "Sketch Quality Checker",
-    "description": "Template repository for a starter Assistant project",
+    "description": "A collection of Assistants to improve the quality",
     "icon": "https://zigzag.is/sketchassistant/icon.png"
   },
   "author": {
