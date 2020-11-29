@@ -1,6 +1,8 @@
 # sketch-quality-checker
 
 This is a tool for Sketch app (design tool) called 'Sketch Assistant'.
+Once you install this in your Sketch app, you will notify the quality of your Sketch file.
+e.g. If you have layers with default shape layer name like 'Rectangle', this assistant will notify you to name them nicely.
 
 <img src=https://zigzag.is/sketchassistant/icon.png width="120px" height="120px"> <br/>A collection of some quality-checking assitants for Sketch.
 
