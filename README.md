@@ -1,5 +1,7 @@
 # sketch-quality-checker
 
+This is a tool for Sketch app (design tool) called 'Sketch Assistant'.
+
 <img src=https://zigzag.is/sketchassistant/icon.png width="120px" height="120px"> <br/>A collection of some quality-checking assitants for Sketch.
 
 
