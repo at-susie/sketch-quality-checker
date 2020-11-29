@@ -4,8 +4,9 @@ This is a tool for Sketch app (design tool) called 'Sketch Assistant'.
 Once you install this in your Sketch app, you'll be notified with the quality of your Sketch file.
 e.g. If you have layers with default shape layer name like 'Rectangle', this assistant will notify you to name them nicely.
 
-<img src=https://zigzag.is/sketchassistant/icon.png width="120px" height="120px"> <br/>A collection of some quality-checking assitants for Sketch.
+<img src=https://zigzag.is/sketchassistant/icon.png width="120px" height="120px"> <br/>
 
+Apart from the default layer name, this assistant checks more topics below:
 
 ## Core assistant items used
 - [Default shape name notification](https://github.com/sketch-hq/sketch-assistants/tree/main/assistants/core/src/rules/name-pattern-shapes)
