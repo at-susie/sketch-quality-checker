@@ -18,7 +18,12 @@ Apart from the default layer name, this assistant checks more topics below:
 - Thanks to [oodesign](https://github.com/oodesign), this also uses an assistant item for checking [duplicated artboards](https://github.com/oodesign/duplicates-assistant).
 - And more.
 
-## Getting started for customization
+## How to install
+- Download the project and you will find `sketch-naming-quality-checker-1.0.0.tgz`.
+- On your Sketch file select '⚙️ › Add from URL…' and select `sketch-naming-quality-checker-1.0.0.tgz`
+
+
+## To get started for customization
 
 After
 ```

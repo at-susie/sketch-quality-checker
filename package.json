@@ -1,5 +1,5 @@
 {
-  "name": "sketch-quality-checker",
+  "name": "sketch-naming-quality-checker",
   "homepage": "https://github.com/at-susie/sketch-quality-checker",
   "version": "1.0.0",
   "main": "dist/index.js",
@@ -11,7 +11,7 @@
     "icon": "https://zigzag.is/sketchassistant/icon.png"
   },
   "author": {
-    "name": "Your Name or Company Name"
+    "name": "Atsushi"
   },
   "keywords": [
     "sketch",
